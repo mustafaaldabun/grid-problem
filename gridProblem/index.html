@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Problem</title>
+
+<body>
+  <div class="header-body">
+    <div class="header-sub-body">
+      <div class="site-title">Mustafa's Grid Problem</div>
+    </div>
+  </div>
+
+  <div class="instruction-title">
+    To generate a grid of size NxN elements, please input a number between 0 and 20.
+  </div>
+
+  <div class="slide-container">
+    <input type="range" min="0" max="20" value="10" class="slider" id="slide-value" oninput="gridValueHandler()">
+  </div>
+  <div id="color-selection" style="display:none">
+    <p>Choose your tiles' colors:</p>
+
+    <div id='active-color'>
+      <input type="color" id="active-color-input" name="activeColor" value="#e66465">
+      <label for="head">Active Tile</label>
+    </div>
+
+    <div id='redundant-color'>
+      <input type="color" id="redundant-color-input" name="redundantColor" value="#f6b73c">
+      <label for="body">Redundant Tile</label>
+    </div>
+    <button class="colour-button" id="submitColourBtn" onclick="colourHandler()">Submit colour</button>
+  </div>
+
+  <div id="hover-selection" style="display:none">
+    <p>Choose your tiles' hover colors:</p>
+
+    <div id='hover-color'>
+      <input type="color" id="hover-color-input" name="hoverColor" value="#e66465">
+      <label for="head">Hover color</label>
+    </div>
+  </div>
+
+  <div class="grid-box" id="grid-box"></div>
+  <script src="gridProblem.js"></script>
+</body>
+
+</html>

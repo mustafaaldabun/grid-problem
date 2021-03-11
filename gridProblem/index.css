@@ -1,0 +1,137 @@
+div.grid-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+div.instruction-title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  background-color: #39CCCC;
+  color: #001f3f;
+  margin: auto;
+  font-family: 'Raleway',sans-serif;
+}
+
+div.header-body {
+  width: 100%;
+  height: 100%;
+  background-color: #001f3f;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+div.header-sub-body {
+  display: block;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #DDDDDD;
+}
+
+div.site-title {
+  display: block;
+  font-size: 40px;
+  font-weight: bold;
+  top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.slidecontainer {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 20%;
+  height: 25px;
+  background: #001f3f;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider-button {
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;;
+  font-size: 19px;
+  font-weight: bold !important;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #2373db;
+  color: white;
+}
+
+#inputResultLabel {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#color-selection {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+#hover-selection {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 50px;
+}
+
+.colour-button {
+  padding: 15px;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;;
+  font-size: 19px;
+  font-weight: bold !important;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #001f3f;
+  color: #DDDDDD;
+}

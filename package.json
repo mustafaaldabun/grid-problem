@@ -1,0 +1,9 @@
+{
+  "name": "js-browser",
+  "scripts": {
+    "start": "live-server gridProblem/",
+    "test": "jest"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}
